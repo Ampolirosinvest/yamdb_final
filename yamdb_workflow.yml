@@ -64,7 +64,8 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          dockerfile: ./api_yamdb/Dockerfile
+          context: api_yamdb
+          #dockerfile: ./api_yamdb/Dockerfile
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/sprintfinal16:latest 
   
   deploy:

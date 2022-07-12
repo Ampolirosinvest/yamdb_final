@@ -16,7 +16,7 @@ services:
       - ./.env
   web:
     #build: ampoliros/sprint15:v3.06.2022
-    image: ampoliros/sprint15:v3.06.2022
+    image: ampoliros/sprintfinal16:latest
     restart: always
     volumes:
       # Контейнер web будет работать с данными, хранящиеся в томе static_value, 

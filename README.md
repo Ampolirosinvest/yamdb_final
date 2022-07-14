@@ -7,8 +7,7 @@ yamdb_final
 
 REST API для социальной сети блогеров Yatube.
 Развернут на боевом сервере в ЯндексОблако.
-На Github в README.db можно увидеть статут работы проекта.
-https://github.com/Ampolirosinvest/yamdb_final/blob/master/README.md
+На Github в README.db в начале проекта можно увидеть статут работы проекта.
 Проект - http://84.252.143.113/admin/
 
 
